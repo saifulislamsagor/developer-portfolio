@@ -2,9 +2,11 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+
 .text-primary {
   color: #fd6e0a;
 }
+
 .btn-primary {
   background-color: #fd6e0a;
   width: 150px;
@@ -16,51 +18,61 @@
   font-size: 20px;
   color: #ffffff;
 }
+
 .header {
   background: #fff8f3;
   background-image: url("../images/header_bg.png"), url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, left;
 }
+
 /* header and navigatio style */
 nav {
   display: flex;
   justify-content: space-between;
   margin: 50px 200px;
 }
+
 nav ul {
   display: flex;
   align-items: center;
 }
+
 nav li {
   list-style: none;
   margin-left: 50px;
 }
+
 .nav-title {
   font-weight: 800;
   font-size: 45px;
 }
+
 /* banner style */
 .banner {
   display: flex;
   align-items: center;
   margin: 0px 200px;
 }
+
 .banner-title {
   font-weight: 700;
   font-size: 85px;
 }
+
 .banner-sub-title {
   font-weight: 600;
   font-size: 45px;
   margin-bottom: 20px;
 }
+
 .banner-description {
   color: #757575;
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 30px;
 }
+
 .btn-primary-2 {
   background-color: #fd6e0a;
   width: 200px;
@@ -72,6 +84,7 @@ nav li {
   font-size: 20px;
   color: #ffffff;
 }
+
 /* main section */
 
 main {
@@ -87,6 +100,7 @@ main {
   border-radius: 10px;
   padding: 130px 150px;
 }
+
 .section-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -102,43 +116,91 @@ main {
   font-family: "Open Sans";
   margin-bottom: 30px;
 }
+
 .about-info-container {
   display: flex;
   justify-content: space-around;
 }
+
 .about .info-title {
   color: #757575;
   font-weight: 400;
   font-size: 20px;
 }
+
 .info-description {
   font-weight: 700;
   font-size: 20px;
   color: #474747;
 }
+
 /* whar i do style */
-section{
+section {
   margin-top: 130px;
 }
+
 .skills-container {
   display: flex;
   gap: 24px;
 }
+
 .skill {
   background: #ffffff;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   padding: 30px;
 }
+
 .skill-title {
   font-weight: 700;
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 20pxd;
 }
+
 .skill-description {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
 }
+
 /* resume style */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-item{
+  margin: 30px 0;
+}
+
+.resume-title {
+  margin-bottom: 30px;
+}
+
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+
+}
+
+.resume .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.resume .description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 50px;
+  font-family: 'Open Sans
+
+}
+.resume-btn{
+  margin-top: 50px;
+  text-align: center;
+}
